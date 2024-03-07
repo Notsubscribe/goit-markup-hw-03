@@ -30,6 +30,8 @@ font-family: "Raleway", sans-serif;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
+    display: inline-block;
+    margin-bottom: 16px;
    
 }
 .logo:hover {
@@ -285,6 +287,7 @@ background-color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px;
 }
 .logo-colour {
 color: #f4f4fd;

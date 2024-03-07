@@ -6,6 +6,9 @@ background-color: #fff;
     font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
 }
+.container {
+    width: 1158px;
+}
 
 .logo {
 font-family: "Raleway", sans-serif;
@@ -36,6 +39,7 @@ font-weight: 700;
 
 .header-menu {
 background: #fff;
+
 }
 
 .header-menu-item {
@@ -124,7 +128,20 @@ background-color: #404BBF
 }
 
 .features-title {
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
 
+    
 
 
 }
@@ -277,4 +294,24 @@ a {
 
 ul {
     list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.section {
+    padding: 120px 
 }

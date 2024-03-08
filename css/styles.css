@@ -164,7 +164,8 @@ background-color: #404BBF
 
 }
 
-.features-title .visually-hidden {
+ .visually-hidden {
+ 
     position: absolute;
     width: 1px;
     height: 1px;
@@ -175,7 +176,8 @@ background-color: #404BBF
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
+ }
+
 .features-section {
 padding: 120px 0;
 }
@@ -323,6 +325,7 @@ padding: 100px 0;
         
 }
 .logo {
+    display: inline-block;
     font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
@@ -330,7 +333,7 @@ padding: 100px 0;
         text-transform: uppercase;
         color: #4d5ae5;
         font-family: "Raleway", sans-serif;
-        display: inline-block;
+        
 }
 .footer-text {
     font-weight: 400;
@@ -354,6 +357,16 @@ color: #f4f4fd;
 }
 .logo .footer-logo-colour {
 color: #f4f4fd;
+}
+.footer-logo {
+    display: inline-block;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+        font-family: "Raleway", sans-serif;
 }
 
 a {

@@ -289,7 +289,8 @@ display: flex;
 flex-wrap: wrap;
 column-gap: 24px;
 row-gap: 48px;
-}
+
+  }
 
 
 .portfolio-card {
@@ -319,6 +320,7 @@ padding: 100px 0;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #f4f4fd;
+        
 }
 .logo {
     font-weight: 700;
@@ -380,7 +382,7 @@ img {
     height: auto;
 }
 .section {
-    padding: 120px
+    padding: 120px;
 }
 .portfolio {
     padding: 120px 0 120px 0;

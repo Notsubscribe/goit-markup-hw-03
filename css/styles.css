@@ -29,13 +29,14 @@ display: flex;
 }
 .logo {
 font-family: "Raleway", sans-serif;
-    font-weight: 700;
+    display: inline-block;
+   font-weight: 700;
     font-size: 18px;
     line-height: 1.17
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
-    display: inline-block;
+
     margin-bottom: 16px;
    
 }
@@ -52,6 +53,8 @@ font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-right: 76px;
     
   }
     
@@ -70,6 +73,7 @@ font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
     
 }
 .address-menu-link:hover {
@@ -118,7 +122,10 @@ font-weight: 400;
     letter-spacing: 0.02em;
     color: #434455;
 }
-
+.hero-section {
+ background-color: #2e2f42;
+padding: 188px 0;
+}
 
 
 .hero-text {
@@ -129,6 +136,7 @@ font-weight: 700;
     color: #fff;
     text-align: center;
     max-width: 496px;
+    
 }
 
 .hero-btn {
@@ -140,6 +148,10 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
+min-width: 169px;
+height: 56px;
+border: none;
+border-radius: 4px;
 }
 .hero-btn:hover {
     background-color: #404bbf
@@ -163,18 +175,23 @@ background-color: #404BBF
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
         overflow: hidden;
-    }
+    
 
     
 
-
+ }
+}
+.features-section {
+padding: 120px 0;
 }
 
 .features-list {
-
+display: flex;
+gap: 24px;
 }
 
 .features-item {
+width: calc((100% - 72px) / 4);
 
 }
 
@@ -184,6 +201,7 @@ font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .features-text {
@@ -196,6 +214,7 @@ font-weight: 400;
 
 .team {
 background-color: #F4F4FD
+padding: 120px 0;
 }
 
 .team-title {
@@ -206,14 +225,19 @@ font-weight: 700;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .team-list {
 background-color: #f4f4fd;
+display: flex;
+gap: 24px;
 }
 
 .team-item {
     background-color: #fff;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-subtitle {
@@ -223,6 +247,7 @@ font-weight: 500;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .team-text {
@@ -232,6 +257,10 @@ font-weight: 400;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    
+}
+.name-position {
+    padding: 32px 0;
 }
 
 .portfolio-title {
@@ -341,5 +370,5 @@ img {
     height: auto;
 }
 .section {
-    padding: 120px 
+    padding: 120px
 }

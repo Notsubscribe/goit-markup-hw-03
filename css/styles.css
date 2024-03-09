@@ -360,10 +360,9 @@ color: #f4f4fd;
 .header-menu-link:focus {
     color: #404bbf;
 }
-.logo .logo-colour {
     color: #2e2f42;
 }
-.logo .footer-logo-colour {
+ .footer-logo-colour {
 color: #f4f4fd;
 }
 .footer-logo {

@@ -7,6 +7,7 @@ display: flex;
     color: #434455;
     font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
+    
 }
 .container {
     width: 1158px;
@@ -360,11 +361,15 @@ color: #f4f4fd;
 .header-menu-link:focus {
     color: #404bbf;
 }
+.logo-colour {
     color: #2e2f42;
 }
  .footer-logo-colour {
 color: #f4f4fd;
+display: inline-block;
 }
+
+
 .footer-logo {
     display: inline-block;
         font-weight: 700;
@@ -377,7 +382,7 @@ color: #f4f4fd;
         margin-bottom: 16px;
 }
 .footer-container {
-    display: inline-block;
+    
 }
 a {
     text-decoration: none;
